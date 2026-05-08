@@ -85,7 +85,7 @@ display: none;
 }
 @media(max-width:1100px){
     header{
-    height: 200vh;
+    height: 150vh;
     }
     .navbar{
         padding: 24px 40px;
