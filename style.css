@@ -350,7 +350,6 @@ text-align: center;
     max-width: 1440px;
     margin: 0 auto;
     padding: 40px 20px;
-    text-align: center;
     
 }
 h3{
@@ -360,6 +359,7 @@ h3{
     font-size: 36px;
     line-height: 44px;
     letter-spacing: 0%;
+    text-align: center;
 }
 p{
     color: #717171;
@@ -367,6 +367,7 @@ p{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
+    text-align: center;
 }
 .header__main-img{
     display: flex;
@@ -381,6 +382,7 @@ h2{
     font-size: 36px;
     line-height: 44px;
     letter-spacing: 0%;
+    text-align: center;
     margin-top: 60px;
 }
 .card-one{
@@ -389,6 +391,7 @@ h2{
     box-shadow: 2px 4px 2px 4px #ABBED133;
     border-radius: 8px;
     padding: 24px 16px;
+    text-align: center;
 }
 .card-two{
     width: 299px;
@@ -396,6 +399,7 @@ h2{
     box-shadow: 2px 4px 2px 4px #ABBED133;
     border-radius: 8px;
     padding: 24px 16px;
+    text-align: center;
 }
 .card-three{
     width: 299px;
@@ -403,6 +407,7 @@ h2{
     box-shadow: 2px 4px 2px 4px #ABBED133;
     border-radius: 8px;
     padding: 24px 16px;
+    text-align: center;
 }
 h4{
     color: #4D4D4D;
@@ -432,5 +437,40 @@ h4{
 .header__main-bottom{
     display: flex;
     gap: 49px;
-    margin-top: 94px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.header__main-right .container{
+ padding:0 20px;
+ margin: 0 auto;
+ max-width: 800px;
+}
+h5{
+    margin-bottom: 8px;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    
+}
+#text{
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    margin-left: 0;
+
+}
+button{
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 32px;
+    background: #4CAF4F;
+    color: #fff;
+    margin: 46px 0px;
 }
