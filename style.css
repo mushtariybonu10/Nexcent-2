@@ -85,7 +85,7 @@ display: none;
 }
 @media(max-width:1100px){
     header{
-    height: 100vh;
+    height: 120vh;
     }
     .navbar{
         padding: 24px 40px;
@@ -581,7 +581,7 @@ color: #717171;
 }
 @media(max-width:768px){
     main{
-    height: 100vh;
+    height: 120vh;
     }
     .main-top-container{
     display: flex;
